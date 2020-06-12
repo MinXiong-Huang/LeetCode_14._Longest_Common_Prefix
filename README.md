@@ -1,2 +1,2 @@
-# LeetCode_14._Longest_Common_Prefix
- LeetCode_14._Longest_Common_Prefix
+#### 題目:
+https://leetcode.com/problems/longest-common-prefix/
