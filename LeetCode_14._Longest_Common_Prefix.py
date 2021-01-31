@@ -4,11 +4,11 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
-        if strs==[]:
+        if strs == []:
             return ""
 
-        s1=min(strs)
-        s2=max(strs)
+        s1 = min(strs)
+        s2 = max(strs)
 
         for i,j in enumerate(s1):
             if j not in s2[i]:
@@ -16,5 +16,5 @@ class Solution(object):
         return s1    
 
 #Example
-s=Solution()
+s = Solution()
 s.longestCommonPrefix(["flower","flow","flight"])
